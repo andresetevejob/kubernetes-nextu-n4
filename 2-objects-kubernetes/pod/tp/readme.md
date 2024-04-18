@@ -36,10 +36,10 @@ ENTRYPOINT exec java $JAVA_OPTS -jar app.jar
 ## 5 - Démarrer l'image avec Docker
 ```
 docker run \
-  --name=knextapp:1.0.0 \
+  --name=knextapp \
   --rm \
   -p 8080:8080 \
-  knextapp
+  knextapp:1.0.0
 ```
 
 ## 6 - Faire un appel à notre application via postman
