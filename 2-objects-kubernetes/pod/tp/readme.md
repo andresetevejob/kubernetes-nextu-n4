@@ -11,7 +11,7 @@
 
 ## 1 - cloner le projet se trouvant à l'adresse suivante
 ```
- 
+ https://github.com/andresetevejob/kubernetes-app
 ```
 ## 2 - construire le projet
 ```
