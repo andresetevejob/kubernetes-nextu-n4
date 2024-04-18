@@ -69,7 +69,7 @@ spec:
       name: knextapp
       ports:
         - containerPort: 8080
-      protocol: TCP
+          protocol: TCP
 
 ```
 ## 10 - chargement de l'image dans le registry de minikube et creation du pod sur kubernetes via kubectl
